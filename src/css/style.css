@@ -63,6 +63,7 @@ body {
 .git {
     user-select: none;
     -webkit-user-drag: none;
+    height: 32px;
     width: 32px;
     float: right;
     margin: 10px;

@@ -6,7 +6,8 @@
     "canvas.js": "/src/js/canvas.js",
     "refresh.js": "/src/js/refresh.js",
     "favicon.png": "/src/img/Nex_logo.png",
-    "github.ico": "/src/img/github.ico"
+    "github.ico": "/src/img/github.png",
+    "twitter.ico": "/src/img/twitter.png"
 
 
 }

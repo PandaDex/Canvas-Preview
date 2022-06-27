@@ -21,6 +21,10 @@ app.get('/favicon.png', function(req, res) {
 app.get('/github.ico', function(req, res) {
     res.sendFile(__dirname + config['github.ico'])
 })
+app.get('/twitter.ico', function(req, res) {
+    res.sendFile(__dirname + config['twitter.ico'])
+})
+
 
 
 app.listen(port, () => { 
