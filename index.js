@@ -24,9 +24,13 @@ app.get('/github.ico', function(req, res) {
 app.get('/twitter.ico', function(req, res) {
     res.sendFile(__dirname + config['twitter.ico'])
 })
+app.get('/config', function(req, res) {
+    res.json(config);
+});
 
 
 
 app.listen(port, () => { 
     console.log(`Running on port: ${port}`);
+    console.log(`http://localhost:${port}`);
 });
