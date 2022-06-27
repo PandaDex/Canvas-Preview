@@ -56,14 +56,6 @@ body {
     right: 40% !important;
 }
 .Noscript {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center;
     text-align: center;
     color: rgb(238, 80, 80);
     visibility: hidden;
