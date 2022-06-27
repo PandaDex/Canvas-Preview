@@ -58,7 +58,7 @@ body {
 .Noscript {
     text-align: center;
     color: rgb(238, 80, 80);
-    visibility: hidden !important;
+    visibility: hidden;
 }
 .git {
     user-select: none;
