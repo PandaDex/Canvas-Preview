@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" />
+    <title>Canvas preview</title>
+  </head>
+  <body>
+    <script src="refresh.js"></script>
+    <noscript>
+      <style>
+        .Main {
+          visibility: hidden;
+        }
+        .bot {
+          visibility: hidden;
+        }
+        .Noscript {
+          visibility: visible;
+        }
+      </style>
+    </noscript>
+    <div class="TopPanel">
+      <a href="https://github.com/PandaDex"
+        ><img class="git" src="github.ico" alt="github"
+      /></a>
+    </div>
+    <div class="Noscript">
+      <p>You need to enable JavaScript in your browser</p>
+    </div>
+    <div class="Main">
+      <div class="PreviewFrame">
+        <div class="preview">
+          <p>Preview</p>
+          <div class="border">
+            <canvas id="canvas" class="canvas"></canvas>
+            <script src="canvas.js"></script>
+          </div>
+          <p>
+            Edit: <a class="link" href="/Canvas.js">Canvas.js</a> file to see
+            changes
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bot">
+      <p class="bottom-txt">
+        Website should refresh every few seconds. <br />
+        If it <a style="color: rgb(238, 80, 80)">not</a>, try different browser
+      </p>
+    </div>
+  </body>
+</html>

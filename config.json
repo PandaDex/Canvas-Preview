@@ -1,0 +1,12 @@
+{
+    "port": "5000",
+
+    "index.html": "/src/index.html",
+    "style.css": "/src/css/style.css",
+    "canvas.js": "/src/js/canvas.js",
+    "refresh.js": "/src/js/refresh.js",
+    "favicon.png": "/src/img/Nex_logo.png",
+    "github.ico": "/src/img/github.ico"
+
+
+}
