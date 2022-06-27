@@ -1,17 +1,28 @@
 {
   "name": "canvas-preview",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "a simple canvas preview app",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Panda_Dex_",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.18"
-  }
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaDex/Canvas-Preview.git"
+  },
+  "keywords": [
+    "Canvas"
+  ],
+  "author": "PandaDex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PandaDex/Canvas-Preview/issues"
+  },
+  "homepage": "https://github.com/PandaDex/Canvas-Preview#readme"
 }
