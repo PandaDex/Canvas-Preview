@@ -7,4 +7,4 @@ setInterval(function(){
         location.reload();
         localStorage.setItem('lastRefresh', n);
     }
-}, 1500);
+}, 2000);
