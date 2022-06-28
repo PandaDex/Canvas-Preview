@@ -56,11 +56,9 @@ body {
 
 .bottom-txt {
     color: white;
-    position: fixed;
+    text-align: center;
     font-style: normal !important;
     bottom: 1px !important;
-    left: 20% !important;
-    right: 20% !important;
 }
 
 .Noscript {
